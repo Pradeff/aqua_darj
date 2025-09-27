@@ -1,0 +1,40 @@
+{
+  "pdfs": [
+    {
+      "id": 1,
+      "title": "Direct-Complete 2X- E-Brochure",
+      "path": "assets/pdf/1.pdf",
+      "category": ""
+    },
+    {
+      "id": 2,
+      "title": "Storage Cooler - Inbuilt Water Purifier UV & RO+UV ",
+      "path": "assets/pdf/2.pdf",
+      "category": ""
+    },
+    {
+      "id": 3,
+      "title": "Forbes Smart Clean with Fully Automatic Cleaning Station",
+      "path": "assets/pdf/Forbes_SmartClean_with_Fully_Automatic_Cleaning_Station",
+      "category": ""
+    },
+    {
+      "id": 4,
+      "title": "Aspire Nova Goodness of 4-in-1 Active Copper",
+      "path": "assets/pdf/4.pdf",
+      "category": ""
+    },
+    {
+      "id": 5,
+      "title": "TWM E-leaflet",
+      "path": "assets/pdf/5.pdf",
+      "category": ""
+    },
+    {
+      "id": 6,
+      "title": "WD x2",
+      "path": "assets/pdf/6.pdf",
+      "category": ""
+    }
+  ]
+}

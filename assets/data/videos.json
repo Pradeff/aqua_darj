@@ -1,0 +1,32 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "",
+      "path": "assets/video/1.mp4",
+      "duration": "5:30",
+      "category": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "path": "assets/video/2.mp4",
+      "duration": "3:45",
+      "category": ""
+    },
+    {
+      "id": 3,
+      "title": "",
+      "path": "assets/video/3.mp4",
+      "duration": "7:20",
+      "category": ""
+    },
+    {
+      "id": 4,
+      "title": "",
+      "path": "assets/video/4.mp4",
+      "duration": "4:15",
+      "category": ""
+    }
+  ]
+}

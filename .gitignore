@@ -1,0 +1,32 @@
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+*.cache
+.idea/
+.vscode/
+nbproject/
+
+# PHP specific
+/vendor/
+/node_modules/
+/composer.lock
+composer.phar
+
+# Environment files
+.env
+.env.*
+
+# Cache / Sessions
+cache/
+tmp/
+logs/
+sessions/
+
+# Ignore these asset folders completely
+assets/video/
+assets/pdf/
