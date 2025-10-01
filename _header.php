@@ -10,6 +10,8 @@ $seo = get_page_seo($page);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png">
+
     <!-- SEO Meta Tags -->
     <title><?php echo isset($seo['title']) ? htmlspecialchars($seo['title']) : 'Aquaguard Darjeeling - Water Purifiers'; ?></title>
     <meta name="description" content="<?php echo isset($seo['description']) ? htmlspecialchars($seo['description']) : 'Official Eureka Forbes franchise in Darjeeling for water purifiers'; ?>">
@@ -52,6 +54,9 @@ $seo = get_page_seo($page);
     <link href="assets/css/about.css" rel="stylesheet">
     <link href="assets/css/contact.css" rel="stylesheet">
     <link href="assets/css/section_hero.css" rel="stylesheet">
+    <link href="assets/css/section_imp_notice.css" rel="stylesheet">
+    <link href="assets/css/section_service.css" rel="stylesheet">
+    <link href="assets/css/section_review.css" rel="stylesheet">
 
 
     <!-- Critical CSS (inlined for performance) -->

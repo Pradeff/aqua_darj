@@ -4,28 +4,42 @@
       "id": 1,
       "title": "",
       "path": "assets/video/1.mp4",
-      "duration": "5:30",
+      "duration": "",
       "category": ""
     },
     {
       "id": 2,
       "title": "",
       "path": "assets/video/2.mp4",
-      "duration": "3:45",
+      "duration": "",
       "category": ""
     },
     {
       "id": 3,
       "title": "",
       "path": "assets/video/3.mp4",
-      "duration": "7:20",
+      "duration": "",
       "category": ""
     },
     {
       "id": 4,
       "title": "",
       "path": "assets/video/4.mp4",
-      "duration": "4:15",
+      "duration": "",
+      "category": ""
+    },
+    {
+      "id": 5,
+      "title": "",
+      "path": "assets/video/5.mp4",
+      "duration": "",
+      "category": ""
+    },
+    {
+      "id": 6,
+      "title": "",
+      "path": "assets/video/6.mp4",
+      "duration": "",
       "category": ""
     }
   ]

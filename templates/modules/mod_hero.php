@@ -4,16 +4,16 @@ if (file_exists('config.php')) {
     require_once 'config.php';
 } else {
     // Fallback constants
-    define('BUSINESS_NAME', 'Aquaguard Darjeeling');
+    /*define('BUSINESS_NAME', 'Aquaguard Darjeeling');
     define('BUSINESS_BRAND', 'Eureka Forbes');
     define('BUSINESS_CITY', 'Darjeeling');
     define('BUSINESS_PHONE', '18602661177');
     define('BUSINESS_EMAIL', 'info@aquaguarddarjeeling.com');
     define('BUSINESS_WHATSAPP_URL', 'https://wa.me/918602661177');
-    $BUSINESS_SERVICE_AREAS = ['Darjeeling', 'Kalimpong', 'Siliguri'];
+    $BUSINESS_SERVICE_AREAS = ['Darjeeling', 'Kalimpong', 'Siliguri'];*/
 }
 
-$service_areas = isset($BUSINESS_SERVICE_AREAS) ? $BUSINESS_SERVICE_AREAS : ['Darjeeling', 'Kalimpong', 'Siliguri'];
+$service_areas = isset($BUSINESS_SERVICE_AREAS) ? $BUSINESS_SERVICE_AREAS : ['Darjeeling', 'Sikkim'];
 ?>
 
 <!-- Hero Section - Light Version with __hero_aq prefix -->
@@ -102,11 +102,11 @@ $service_areas = isset($BUSINESS_SERVICE_AREAS) ? $BUSINESS_SERVICE_AREAS : ['Da
                             <span>100% Safe</span>
                         </div>
                         <div class="__hero_aq_float_card __hero_aq_float_2">
-                            <i class="bi bi-award-fill text-warning"></i>
+                            <i class="bi bi-award text-primary_light"></i>
                             <span>Certified</span>
                         </div>
                         <div class="__hero_aq_float_card __hero_aq_float_3">
-                            <i class="bi bi-people-fill text-primary"></i>
+                            <i class="bi bi-people text-primary"></i>
                             <span>2000+ Users</span>
                         </div>
                     </div>

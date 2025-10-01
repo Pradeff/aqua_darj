@@ -26,16 +26,16 @@
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link <?php echo ($page == 'products') ? 'active' : ''; ?>" href="products.php">
+                <!--<li class="nav-item">
+                    <a class="nav-link <?php /*echo ($page == 'products') ? 'active' : ''; */?>" href="products.php">
                         <i class="bi bi-droplet nav-icon"></i>
                         <span>Products</span>
                     </a>
-                </li>
+                </li>-->
 
                 <!-- Services Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle <?php echo ($page == 'services' || $page == 'gallery') ? 'active' : ''; ?>"
+                <!--<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle <?php /*echo ($page == 'services' || $page == 'gallery') ? 'active' : ''; */?>"
                        href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
                         <i class="bi bi-tools nav-icon"></i>
                         <span>Services</span>
@@ -82,12 +82,19 @@
                             </a>
                         </li>
                     </ul>
-                </li>
+                </li>-->
 
                 <li class="nav-item">
                     <a class="nav-link <?php echo ($page == 'about') ? 'active' : ''; ?>" href="about.php">
                         <i class="bi bi-info-circle nav-icon"></i>
                         <span>About</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link <?php echo ($page == 'gallery') ? 'active' : ''; ?>" href="gallery.php">
+                        <i class="bi bi-images nav-icon"></i>
+                        <span>Gallery</span>
                     </a>
                 </li>
 
@@ -104,11 +111,7 @@
         <div class="navbar-actions d-none d-lg-flex align-items-center">
             <!-- Contact Actions -->
             <div class="contact-actions d-flex align-items-center">
-                <!--<a href="https://wa.me/<?php /*echo BUSINESS_WHATSAPP; */?>" class="action-btn whatsapp-btn" target="_blank"
-                   title="WhatsApp Us">
-                    <i class="bi bi-whatsapp"></i>
-                </a>-->
-                <a class="btn btn-whatsapp" href="https://wa.me/919999999999" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+                <a class="btn btn-whatsapp" href="https://wa.me/<?php echo BUSINESS_WHATSAPP; ?>" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
                     <i class="bi bi-whatsapp me-1"></i> WhatsApp
                 </a>
             </div>

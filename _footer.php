@@ -187,9 +187,10 @@
 <script src="assets/js/sweetalert2.js"></script>
 <script src="assets/js/vendor/fancybox/fancybox.umd.js"></script>
 <script src="assets/js/custom-scripts.js"></script>
-<script src="assets/js/modules/mod_video.js"></script>
-<!-- PDF Module JS -->
-<script src="assets/js/modules/mod_pdf.js"></script>
+<script src="assets/js/masonry.pkgd.min.js"></script>
+<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+
 <script src="assets/js/back-to-top.js"></script>
 
 
