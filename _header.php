@@ -35,15 +35,15 @@ $seo = get_page_seo($page);
     <meta name="twitter:description" content="<?php echo isset($seo['description']) ? htmlspecialchars($seo['description']) : 'Official Eureka Forbes franchise'; ?>">
     <meta name="twitter:image" content="<?php echo SITE_URL; ?>/assets/images/twitter-card.jpg">
 
-    <!-- Bootstrap CSS -->
+
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
+
     <link href="assets/js/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <!-- Fancybox CSS -->
+
     <link href="assets/js/vendor/fancybox/fancybox.css" rel="stylesheet">
-    <!-- Google Fonts -->
+
     <link href="assets/fonts/font.css" rel="stylesheet">
-    <!-- Custom Styles -->
+
     <link href="assets/css/custom-styles.css" rel="stylesheet">
     <link href="assets/css/nav.css" rel="stylesheet">
 
@@ -58,8 +58,6 @@ $seo = get_page_seo($page);
     <link href="assets/css/section_service.css" rel="stylesheet">
     <link href="assets/css/section_review.css" rel="stylesheet">
 
-
-    <!-- Critical CSS (inlined for performance) -->
     <style>
 
         /* Fixed Loading Spinner */
@@ -98,7 +96,6 @@ $seo = get_page_seo($page);
         }
     </style>
 
-    <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
     <?php echo get_business_schema(); ?>
     </script>

@@ -56,11 +56,12 @@
                             Quick Links
                         </h5>
                         <ul class="footer-links">
-                            <li><a href="index.php"><i class="bi bi-house"></i> Home</a></li>
-                            <li><a href="products.php"><i class="bi bi-droplet"></i> Products</a></li>
-                            <li><a href="services.php"><i class="bi bi-gear"></i> Services</a></li>
                             <li><a href="about.php"><i class="bi bi-info-circle"></i> About Us</a></li>
+                            <li><a href="gallery.php"><i class="bi bi-images"></i> Photo Gallery</a></li>
                             <li><a href="contact.php"><i class="bi bi-envelope"></i> Contact</a></li>
+                            <li><a href="javascript:void(0)"><i class="bi bi-envelope"></i> Terms of Service</a></li>
+                            <li><a href="javascript:void(0)"><i class="bi bi-envelope"></i> Privacy Policy</a></li>
+                            <li><a href="javascript:void(0)"><i class="bi bi-envelope"></i> Sitemap</a></li>
                         </ul>
                     </div>
                 </div>
@@ -165,14 +166,12 @@
             <div class="row align-items-center py-3">
                 <div class="col-md-6">
                     <p class="copyright">
-                        &copy; <?php echo date('Y'); ?> <?php echo BUSINESS_NAME; ?>. All rights reserved.
+                        <i class="bi bi-c-circle"></i> <?php echo date('Y'); ?> <?php echo BUSINESS_NAME; ?>. All rights reserved.
                     </p>
                 </div>
                 <div class="col-md-6">
                     <div class="footer-links-bottom">
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms of Service</a>
-                        <a href="#">Sitemap</a>
+                        <small>Developed by: <a href="https://www.sitsolution.co.in" target="_blank">SIT Solution</a></small>
                     </div>
                 </div>
             </div>
@@ -397,5 +396,99 @@
         </div>
     </button>
 </div>
+
+
+<script>
+    $(document).ready(function() {
+        // Initialize Fancybox
+        Fancybox.bind("[data-fancybox]", {
+            Toolbar: {
+                display: {
+                    left: ["infobar"],
+                    middle: [
+                        "zoomIn",
+                        "zoomOut",
+                        "toggle1to1",
+                        "rotateCCW",
+                        "rotateCW",
+                        "flipX",
+                        "flipY",
+                    ],
+                    right: ["slideshow", "thumbs", "close"],
+                },
+            },
+            Images: {
+                zoom: true,
+                Panzoom: {
+                    maxScale: 3,
+                },
+            },
+            Carousel: {
+                infinite: true,
+            },
+            hideScrollbar: false,
+        });
+
+        // Handle image loading and show gallery
+        var images = document.querySelectorAll('.gallery-image');
+        var loadedImages = 0;
+        var totalImages = images.length;
+
+        function imageLoaded() {
+            loadedImages++;
+            if (loadedImages === totalImages) {
+                // Hide loading spinner
+                $('#loading').hide();
+
+                // Show gallery with fade effect
+                $('#gallery').addClass('loaded');
+
+                // Animate gallery items on load
+                $('.gallery-item').each(function(index) {
+                    $(this).delay(index * 50).animate({
+                        opacity: 1
+                    }, 400);
+                });
+            }
+        }
+
+        // Check if images are loaded
+        images.forEach(function(img) {
+            if (img.complete) {
+                imageLoaded();
+            } else {
+                img.addEventListener('load', imageLoaded);
+                img.addEventListener('error', imageLoaded); // Handle broken images
+            }
+        });
+
+        // Fallback if all images are already cached
+        setTimeout(function() {
+            if (!$('#gallery').hasClass('loaded')) {
+                $('#loading').hide();
+                $('#gallery').addClass('loaded');
+            }
+        }, 2000);
+
+        // Handle window resize - maintain 3 columns
+        $(window).resize(function() {
+            // Force reflow for masonry layout
+            var gallery = $('#gallery')[0];
+            gallery.style.columnCount = 'auto';
+            setTimeout(function() {
+                gallery.style.columnCount = '3';
+            }, 10);
+        });
+    });
+
+    // Vanilla JS fallback for older browsers
+    document.addEventListener('DOMContentLoaded', function() {
+        // Add initial opacity for smooth loading
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        galleryItems.forEach(function(item) {
+            item.style.opacity = '0';
+        });
+    });
+</script>
 </body>
 </html>

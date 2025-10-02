@@ -136,7 +136,7 @@
             <img src="assets/images/logo.svg" alt="Eureka Forbes" class="mobile-nav-logo">
             <div class="ms-2">
                 <strong class="mb-0"><?php echo BUSINESS_NAME; ?></strong>
-                <small class="text-muted">Official Franchise</small>
+                <small class="text-muted">Authorized Representative </small>
             </div>
         </div>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -168,15 +168,8 @@
                 </a>
             </li>
 
-            <li class="mobile-nav-item">
-                <a class="mobile-nav-link <?php echo ($page == 'products') ? 'active' : ''; ?>" href="products.php">
-                    <i class="bi bi-droplet"></i>
-                    <span>Products</span>
-                </a>
-            </li>
-
             <!-- Mobile Services Section -->
-            <li class="mobile-nav-item">
+            <!--<li class="mobile-nav-item">
                 <div class="mobile-nav-section">
                     <div class="mobile-section-header">
                         <i class="bi bi-tools"></i>
@@ -189,12 +182,19 @@
                         <li><a href="gallery.php" class="mobile-submenu-link">Gallery</a></li>
                     </ul>
                 </div>
-            </li>
+            </li>-->
 
             <li class="mobile-nav-item">
                 <a class="mobile-nav-link <?php echo ($page == 'about') ? 'active' : ''; ?>" href="about.php">
                     <i class="bi bi-info-circle"></i>
                     <span>About</span>
+                </a>
+            </li>
+
+            <li class="mobile-nav-item">
+                <a class="mobile-nav-link <?php echo ($page == 'gallery') ? 'active' : ''; ?>" href="gallery.php">
+                    <i class="bi bi-images"></i>
+                    <span>Gallery</span>
                 </a>
             </li>
 
@@ -210,19 +210,19 @@
 
         <!-- Mobile Action Buttons -->
         <div class="mobile-actions">
-            <button class="btn btn-primary w-100 mb-2" onclick="bookFreeDemo()">
+            <!--<button class="btn btn-primary w-100 mb-2" onclick="bookFreeDemo()">
                 <i class="bi bi-calendar-check"></i> Book Free Demo
-            </button>
+            </button>-->
 
-            <div class="row">
+            <div class="row g-1">
                 <div class="col-6">
-                    <a href="https://wa.me/<?php echo BUSINESS_WHATSAPP; ?>" class="btn btn-success w-100"
+                    <a href="https://wa.me/<?php echo BUSINESS_WHATSAPP; ?>" class="btn btn-whatsapp w-100"
                        target="_blank">
                         <i class="bi bi-whatsapp"></i> WhatsApp
                     </a>
                 </div>
                 <div class="col-6">
-                    <a href="tel:<?php echo BUSINESS_PHONE; ?>" class="btn btn-outline-primary w-100">
+                    <a href="tel:<?php echo BUSINESS_PHONE; ?>" class="btn __cont-btn-submit w-100">
                         <i class="bi bi-telephone"></i> Call
                     </a>
                 </div>

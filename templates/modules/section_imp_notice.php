@@ -21,7 +21,7 @@
                     <div class="notice-text">
                         <p class="main-message">
                             It is requested to all our customers to book service at our customer care number
-                            <strong class="highlight-number">18602661177</strong> only to avoid duplicate filters &
+                            <strong class="highlight-number"><?php echo CUSTOMER_CARE_NO; ?></strong> only to avoid duplicate filters &
                             safety of customer's family too.
                         </p>
                         <p class="sub-message">
@@ -36,7 +36,7 @@
 
                     <a href="tel:1.8602661177e+10" class="cta-btn primary-btn">
                         <i class="bi bi-telephone-fill"></i>
-                        <span>Customer care no. Call Now: <strong>18602661177</strong></span>
+                        <span>Customer care no. Call Now: <strong><?php echo CUSTOMER_CARE_NO; ?></strong></span>
                         <div class="btn-glow"></div>
                     </a>
                     <!--<button class="cta-btn secondary-btn" onclick="showTechnicianVerification()">

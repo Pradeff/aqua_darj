@@ -4,7 +4,7 @@
     color: white;
     position: relative;
     overflow: hidden;
-    padding: 100px 0;
+    padding: 10px 0;
 }
 
 .__cont-hero-bg-pattern {
@@ -224,7 +224,7 @@
 .__cont-form-floating-modern .form-control {
     padding: 1rem 1rem 1rem 3rem;
     border: 2px solid #e5e7eb;
-    border-radius: 12px;
+    border-radius: 4px;
     font-size: 1rem;
     transition: all 0.3s ease;
     background: #ffffff;
@@ -253,8 +253,14 @@
     left: -2.5rem;
     top: 50%;
     transform: translateY(-50%);
-    color: #9ca3af;
+    color: #fff;
     transition: color 0.3s ease;
+    background: #1850bb;
+    padding: 3px;
+    border-radius: 4px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
 }
 
 .__cont-form-floating-modern .form-control:focus + label,
@@ -587,7 +593,7 @@
     }
 
     .__cont-floating-card {
-        display: none;
+        /*display: none;*/
     }
 
     .__cont-map-overlay {

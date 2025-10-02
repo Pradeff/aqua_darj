@@ -59,7 +59,7 @@ function getPostValue($key, $default = '') {
                     </div>
                     <h1 class="__cont-hero-title">Get in Touch</h1>
                     <p class="__cont-hero-description">
-                        Ready for pure water? Contact us for free demo, service support, or any queries.
+                        Ready for pure water? Contact us for service support, or any queries.
                         Our expert team is here to help you 24/7.
                     </p>
                     <div class="__cont-hero-stats">
@@ -289,29 +289,6 @@ function getPostValue($key, $default = '') {
                         </div>
                     </div>
 
-                    <!-- Quick Actions -->
-                    <div class="__cont-info-card __cont-quick-actions-card">
-                        <div class="__cont-info-header">
-                            <div class="__cont-info-icon">
-                                <i class="bi bi-lightning-charge"></i>
-                            </div>
-                            <h3 class="__cont-info-title">Quick Actions</h3>
-                        </div>
-                        <div class="__cont-quick-actions">
-                            <a href="tel:<?php echo BUSINESS_PHONE; ?>" class="__cont-quick-action __cont-emergency-call">
-                                <i class="bi bi-telephone-fill"></i>
-                                <span>Emergency Call</span>
-                            </a>
-                            <button class="__cont-quick-action __cont-book-demo" onclick="bookFreeDemo()">
-                                <i class="bi bi-calendar-check"></i>
-                                <span>Book Free Demo</span>
-                            </button>
-                            <a href="#" class="__cont-quick-action __cont-track-service">
-                                <i class="bi bi-search"></i>
-                                <span>Track Service</span>
-                            </a>
-                        </div>
-                    </div>
 
                     <!-- FAQ Preview -->
                     <div class="__cont-info-card __cont-faq-card">
@@ -334,15 +311,6 @@ function getPostValue($key, $default = '') {
                             <div class="__cont-faq-item">
                                 <div class="__cont-faq-question">
                                     <i class="bi bi-chevron-right"></i>
-                                    Is the demo really free?
-                                </div>
-                                <div class="__cont-faq-answer">
-                                    Yes, absolutely free with no hidden charges.
-                                </div>
-                            </div>
-                            <div class="__cont-faq-item">
-                                <div class="__cont-faq-question">
-                                    <i class="bi bi-chevron-right"></i>
                                     Do you provide AMC services?
                                 </div>
                                 <div class="__cont-faq-answer">
@@ -350,10 +318,10 @@ function getPostValue($key, $default = '') {
                                 </div>
                             </div>
                         </div>
-                        <a href="#" class="__cont-view-all-faq">
+                        <!--<a href="#" class="__cont-view-all-faq">
                             View All FAQs
                             <i class="bi bi-arrow-right"></i>
-                        </a>
+                        </a>-->
                     </div>
                 </div>
             </div>

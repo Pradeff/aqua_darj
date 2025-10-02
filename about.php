@@ -2,7 +2,7 @@
 <?php include '_nav.php'; ?>
 
 <!-- About Hero Section -->
-<section class="__about-hero">
+<!--<section class="__about-hero">
     <div class="__about-hero-pattern"></div>
     <div class="container">
         <div class="row align-items-center min-vh-75">
@@ -12,7 +12,7 @@
                         <i class="bi bi-award"></i>
                         <span>Trusted Since Years</span>
                     </div>
-                    <h1 class="__about-hero-title">About <?php echo BUSINESS_NAME; ?></h1>
+                    <h1 class="__about-hero-title">About <?php /*echo BUSINESS_NAME; */?></h1>
                     <p class="__about-hero-subtitle">Your Trusted Partner for Pure Water Solutions</p>
                     <p class="__about-hero-description">
                         We are the official Eureka Forbes franchise in Darjeeling, committed to providing
@@ -58,10 +58,10 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- Our Story Section -->
-<section class="__about-story-section">
+<!--<section class="__about-story-section">
     <div class="container">
         <div class="__about-section-header text-center">
             <div class="__about-section-badge">
@@ -138,7 +138,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- Our Mission & Vision Section -->
 <section class="__about-mission-vision-section">
@@ -195,7 +195,7 @@
 </section>
 
 <!-- Our Values Section -->
-<section class="__about-values-section">
+<!--<section class="__about-values-section">
     <div class="container">
         <div class="__about-section-header text-center">
             <div class="__about-section-badge">
@@ -268,7 +268,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <!-- Why Choose Us Section -->
 <section class="__about-why-choose-section">
@@ -355,6 +355,8 @@
                         </div>
                     </div>
                 </div>
+
+                <img src="assets/images/home.avif" alt="About Us" class="__about-hero-image">
             </div>
         </div>
     </div>
@@ -376,53 +378,67 @@
             <div class="__about-team-member">
                 <div class="__about-member-image">
                     <img src="assets/images/default.jpg" alt="Team Member">
-                    <div class="__about-member-overlay">
+                    <!--<div class="__about-member-overlay">
                         <div class="__about-member-social">
                             <a href="#"><i class="bi bi-linkedin"></i></a>
                             <a href="#"><i class="bi bi-envelope"></i></a>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
                 <div class="__about-member-info">
-                    <h4 class="__about-member-name">Rajesh Kumar</h4>
-                    <p class="__about-member-role">Franchise Owner & Director</p>
-                    <p class="__about-member-desc">Leading the team with over 5 years of experience in water purification industry.</p>
+                    <h4 class="__about-member-name">Kanchen Gurung</h4>
+                    <p class="__about-member-role"> Representative</p>
+                    <!--<p class="__about-member-desc">
+                        Passionate about bringing pure water solutions to every household in Darjeeling with
+                        genuine Eureka Forbes products and expert service.
+                    </p>-->
+                </div>
+            </div>
+
+
+            <div class="__about-team-member">
+                <div class="__about-member-image">
+                    <img src="assets/images/default.jpg" alt="Team Member">
+                    <!--<div class="__about-member-overlay">
+                        <div class="__about-member-social">
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>-->
+                </div>
+                <div class="__about-member-info">
+                    <h4 class="__about-member-name">...</h4>
+                    <p class="__about-member-role"> ...</p>
+                    <!--<p class="__about-member-desc">
+                        Passionate about bringing pure water solutions to every household in Darjeeling with
+                        genuine Eureka Forbes products and expert service.
+                    </p>-->
                 </div>
             </div>
 
             <div class="__about-team-member">
                 <div class="__about-member-image">
                     <img src="assets/images/default.jpg" alt="Team Member">
-                    <div class="__about-member-overlay">
+                    <!--<div class="__about-member-overlay">
                         <div class="__about-member-social">
                             <a href="#"><i class="bi bi-linkedin"></i></a>
                             <a href="#"><i class="bi bi-envelope"></i></a>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
                 <div class="__about-member-info">
-                    <h4 class="__about-member-name">Priya Sharma</h4>
-                    <p class="__about-member-role">Customer Service Manager</p>
-                    <p class="__about-member-desc">Ensuring exceptional customer experience and satisfaction across all touchpoints.</p>
+                    <h4 class="__about-member-name">...</h4>
+                    <p class="__about-member-role">... </p>
+                    <!--<p class="__about-member-desc">
+                        Passionate about bringing pure water solutions to every household in Darjeeling with
+                        genuine Eureka Forbes products and expert service.
+                    </p>-->
                 </div>
             </div>
 
-            <div class="__about-team-member">
-                <div class="__about-member-image">
-                    <img src="assets/images/default.jpg" alt="Team Member">
-                    <div class="__about-member-overlay">
-                        <div class="__about-member-social">
-                            <a href="#"><i class="bi bi-linkedin"></i></a>
-                            <a href="#"><i class="bi bi-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="__about-member-info">
-                    <h4 class="__about-member-name">Amit Gupta</h4>
-                    <p class="__about-member-role">Senior Technician</p>
-                    <p class="__about-member-desc">Expert in installation and maintenance with certified training from Eureka Forbes.</p>
-                </div>
-            </div>
+
+
+
         </div>
     </div>
 </section>

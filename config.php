@@ -1,12 +1,15 @@
 <?php
 // Website Configuration
-define('SITE_NAME', 'Aquaguard Darjeeling - Official Eureka Forbes Franchise');
+define('SITE_NAME', 'Aquaguard Darjeeling - Official Eureka Forbes Authorized Representative');
 define('SITE_URL', 'https://aquaguard-darjeeling.com');
+define('GST_NO', '19CKUPG7097K1Z3');
 define('BUSINESS_NAME', 'Aquaguard Darjeeling');
-define('BUSINESS_ADDRESS', '123 Mall Road, Darjeeling, West Bengal 734101');
-define('BUSINESS_PHONE', '+91 97758 32142');
-define('BUSINESS_EMAIL', 'info@aquaguard-darjeeling.com');
-define('BUSINESS_WHATSAPP', '919800170761');
+define('BUSINESS_ADDRESS', 'Gumbaline, above Nebula,Sukhia Pokhri, Darjeeling - 734221');
+define('BUSINESS_PHONE', '+91 7550919479');
+define('BUSINESS_WHATSAPP', '917550919479');
+define('CUSTOMER_CARE_NO', '18602661177');
+define('BUSINESS_EMAIL', 'aquaguardsolution2025@gmail.com');
+define('EMAIL_1', 'aquaguardsolution_9403@eurosmile.in');
 
 // Performance Configuration
 ini_set('zlib.output_compression', 'On');
@@ -31,7 +34,7 @@ function get_page_seo($page = 'index') {
     $pages = [
         'index' => [
             'title' => 'Aquaguard Water Purifiers Darjeeling | Official Eureka Forbes Dealer',
-            'description' => 'Buy Aquaguard water purifiers in Darjeeling. Official Eureka Forbes franchise offering RO UV filters, installation, AMC services & repair. Free home demo available.',
+            'description' => 'Buy Aquaguard water purifiers in Darjeeling. Official Eureka Forbes Authorized Representative offering RO UV filters, installation, AMC services & repair. Free home demo available.',
             'keywords' => 'Aquaguard Darjeeling, water purifier Darjeeling, RO filter, UV filter, Eureka Forbes dealer'
         ],
         'products' => [
@@ -45,13 +48,13 @@ function get_page_seo($page = 'index') {
             'keywords' => 'Aquaguard service, AMC, installation, repair, filter replacement, Darjeeling'
         ],
         'about' => [
-            'title' => 'About Aquaguard Darjeeling | Official Eureka Forbes Franchise',
-            'description' => 'Learn about Aquaguard Darjeeling - your trusted Eureka Forbes franchise. Years of experience in water purification solutions and customer service.',
-            'keywords' => 'Aquaguard Darjeeling about, Eureka Forbes franchise, water purifier dealer'
+            'title' => 'About Aquaguard Darjeeling | Official Eureka Forbes Authorized Representative',
+            'description' => 'Learn about Aquaguard Darjeeling - your trusted Eureka Forbes Authorized Representative. Years of experience in water purification solutions and customer service.',
+            'keywords' => 'Aquaguard Darjeeling about, Eureka Forbes Authorized Representative, water purifier dealer'
         ],
         'contact' => [
-            'title' => 'Contact Aquaguard Darjeeling | Book Free Demo | Service Support',
-            'description' => 'Contact official Aquaguard dealer in Darjeeling. Book free home demo, schedule service, AMC support. Call +91 98765 43210 or WhatsApp.',
+            'title' => 'Contact Aquaguard Darjeeling | Service Support',
+            'description' => 'Contact official Aquaguard dealer in Darjeeling. Schedule service, AMC support. Call +91 7550919479 or WhatsApp.',
             'keywords' => 'contact Aquaguard, free demo, service booking, Darjeeling dealer'
         ]
     ];
@@ -70,7 +73,7 @@ function get_business_schema() {
         "@context" => "https://schema.org",
         "@type" => "LocalBusiness",
         "name" => BUSINESS_NAME,
-        "description" => "Official Eureka Forbes franchise providing Aquaguard water purifiers, RO UV filters, installation, AMC services and repair in Darjeeling.",
+        "description" => "Official Eureka Forbes providing Aquaguard water purifiers, RO UV filters, installation, AMC services and repair in Darjeeling.",
         "url" => SITE_URL,
         "telephone" => BUSINESS_PHONE,
         "email" => BUSINESS_EMAIL,
@@ -91,7 +94,7 @@ function get_business_schema() {
         "priceRange" => "₹₹",
         "paymentAccepted" => "Cash, Credit Card, UPI, Net Banking",
         "currenciesAccepted" => "INR",
-        "areaServed" => "Darjeeling, Kalimpong, Siliguri, North Bengal",
+        "areaServed" => "Darjeeling, Sikkim",
         "serviceType" => "Water Purifier Sales, Service, AMC, Installation, Repair",
         "brand" => "Eureka Forbes Aquaguard",
         "sameAs" => [

@@ -177,8 +177,8 @@
 
 .__about-section-subtitle {
     font-size: 1.2rem;
-    color: #6b7280;
-    max-width: 600px;
+    color: #3f485b;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -313,13 +313,13 @@
 /* Mission Vision Section */
 .__about-mission-vision-section {
     padding: 6rem 0;
-    background: white;
+    background: #f8fafc;
 }
 
 .__about-mission-card,
 .__about-vision-card {
     background: white;
-    border-radius: 20px;
+    border-radius: 8px;
     padding: 3rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     height: 100%;
@@ -454,6 +454,138 @@
 .__about-value-description {
     color: #6b7280;
     line-height: 1.6;
+}
+/* Mission Vision Section */
+.__about-mission-vision-section {
+    padding: 80px 0;
+}
+
+.__about-mission-vision-section .__about-mission-card,
+.__about-mission-vision-section .__about-vision-card {
+    position: relative;
+    background: linear-gradient(180deg, rgba(255,255,255,0.85), rgba(255,255,255,0.65));
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(102, 126, 234, 0.18);
+    border-radius: 18px;
+    padding: 28px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.__about-mission-vision-section .__about-mission-card:hover,
+.__about-mission-vision-section .__about-vision-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 36px rgba(0,0,0,0.12);
+}
+
+.__about-mission-vision-section .__about-card-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.__about-mission-vision-section .__about-card-icon {
+    width: 54px;
+    height: 54px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    color: #fff;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+}
+
+.__about-mission-vision-section .__about-mission-icon {
+    background: linear-gradient(135deg, #667eea, #5aa9e6);
+}
+
+.__about-mission-vision-section .__about-vision-icon {
+    background: linear-gradient(135deg, #764ba2, #667eea);
+}
+
+.__about-mission-vision-section .__about-card-title {
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.25rem;
+    letter-spacing: 0.2px;
+}
+
+.__about-mission-vision-section .__about-card-content p {
+    color: #2d2d2d;
+    margin-bottom: 16px;
+}
+
+.__about-mission-vision-section .__about-mission-points,
+.__about-mission-vision-section .__about-vision-points {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.__about-mission-vision-section .__about-mission-points li,
+.__about-mission-vision-section .__about-vision-points li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(102, 126, 234, 0.08);
+    border: 1px solid rgba(102, 126, 234, 0.14);
+    padding: 10px 12px;
+    border-radius: 12px;
+    color: #293241;
+}
+
+.__about-mission-vision-section .__about-vision-points li {
+    background: rgba(118, 75, 162, 0.08);
+    border-color: rgba(118, 75, 162, 0.14);
+}
+
+.__about-mission-vision-section .__about-mission-points li i,
+.__about-mission-vision-section .__about-vision-points li i {
+    color: #667eea;
+}
+
+.__about-mission-vision-section .__about-vision-points li i {
+    color: #764ba2;
+}
+
+/* Decorative corner accents */
+.__about-mission-vision-section .__about-mission-card::after,
+.__about-mission-vision-section .__about-vision-card::after {
+    content: "";
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: radial-gradient(closest-side, rgba(102,126,234,0.18), transparent 70%);
+    pointer-events: none;
+}
+
+.__about-mission-vision-section .__about-vision-card::after {
+    background: radial-gradient(closest-side, rgba(118,75,162,0.18), transparent 70%);
+}
+
+/* Responsive */
+@media (min-width: 992px) {
+    .__about-mission-vision-section .__about-mission-points,
+    .__about-mission-vision-section .__about-vision-points {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .__about-mission-vision-section {
+        padding: 56px 0;
+    }
+    .__about-mission-vision-section .__about-mission-card,
+    .__about-mission-vision-section .__about-vision-card {
+        padding: 22px;
+    }
 }
 
 /* Why Choose Section */

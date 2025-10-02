@@ -16,7 +16,6 @@ if (file_exists('config.php')) {
 $service_areas = isset($BUSINESS_SERVICE_AREAS) ? $BUSINESS_SERVICE_AREAS : ['Darjeeling', 'Sikkim'];
 ?>
 
-<!-- Hero Section - Light Version with __hero_aq prefix -->
 <section class="__hero_aq">
     <div class="__hero_aq_bg"></div>
     <div class="container">
@@ -31,7 +30,8 @@ $service_areas = isset($BUSINESS_SERVICE_AREAS) ? $BUSINESS_SERVICE_AREAS : ['Da
                         </div>
                         <div class="__hero_aq_badge_content">
                             <span class="__hero_aq_brand_name"><?php echo defined('BUSINESS_NAME') ? BUSINESS_NAME : 'Aquaguard'; ?></span>
-<!--                            <span class="__hero_aq_brand_location">--><?php //echo defined('BUSINESS_CITY') ? BUSINESS_CITY : 'Darjeeling'; ?><!--</span>-->
+                            <!--                            <span class="__hero_aq_brand_location">-->
+                            <?php //echo defined('BUSINESS_CITY') ? BUSINESS_CITY : 'Darjeeling'; ?><!--</span>-->
                         </div>
                         <div class="__hero_aq_badge_glow"></div>
                     </div>
@@ -44,11 +44,14 @@ $service_areas = isset($BUSINESS_SERVICE_AREAS) ? $BUSINESS_SERVICE_AREAS : ['Da
                         </h1>
 
                         <p class="__hero_aq_lead">
-                            Ensuring pure water quality through advanced purification technology and dedicated customer service in <?php echo defined('BUSINESS_CITY') ? BUSINESS_CITY : 'Darjeeling'; ?>.
+                            Ensuring pure water quality through advanced purification technology and dedicated customer
+                            service in <?php echo defined('BUSINESS_CITY') ? BUSINESS_CITY : 'Darjeeling'; ?>.
                         </p>
 
                         <p class="__hero_aq_text">
-                            Official <?php echo defined('BUSINESS_BRAND') ? BUSINESS_BRAND : 'Eureka Forbes'; ?> Franchise delivering trusted Aquaguard products with reliable services including installation, repairs, and AMC support.
+                            Official <?php echo defined('BUSINESS_BRAND') ? BUSINESS_BRAND : 'Eureka Forbes'; ?>
+                            Authorized Representative delivering trusted Aquaguard products with reliable services including
+                            installation, repairs, and AMC support.
                         </p>
                     </div>
 
@@ -59,8 +62,9 @@ $service_areas = isset($BUSINESS_SERVICE_AREAS) ? $BUSINESS_SERVICE_AREAS : ['Da
                                 <i class="bi bi-patch-check-fill"></i>
                             </div>
                             <div class="__hero_aq_feature_info">
-                                <h4>Authorized Franchise</h4>
-                                <p>Official <?php echo defined('BUSINESS_BRAND') ? BUSINESS_BRAND : 'Eureka Forbes'; ?> dealer</p>
+                                <h4>Authorized Representative</h4>
+                                <p>Official <?php echo defined('BUSINESS_BRAND') ? BUSINESS_BRAND : 'Eureka Forbes'; ?>
+                                    dealer</p>
                             </div>
                         </div>
 
@@ -146,7 +150,8 @@ $service_areas = isset($BUSINESS_SERVICE_AREAS) ? $BUSINESS_SERVICE_AREAS : ['Da
                             Learn More
                             <i class="bi bi-arrow-right"></i>
                         </a>
-                        <a href="tel:<?php echo defined('BUSINESS_PHONE') ? BUSINESS_PHONE : '18602661177'; ?>" class="__hero_aq_btn_secondary">
+                        <a href="tel:<?php echo defined('BUSINESS_PHONE') ? BUSINESS_PHONE : '18602661177'; ?>"
+                           class="__hero_aq_btn_secondary">
                             <i class="bi bi-telephone-fill"></i>
                             Call Now
                         </a>
